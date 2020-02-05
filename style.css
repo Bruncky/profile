@@ -23,6 +23,8 @@
   }
 }
 
+  /*-------------------- CARDS --------------------*/
+
 .card {
   background-color: white;
   margin: 20px auto;
@@ -31,19 +33,34 @@
   box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
 }
 
+  /*-------------------- BANNER --------------------*/
+
+.banner {
+  display: flex;
+  max-width: 100%;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url("images/banner_image_2.png");
+  padding: 120px 0;
+}
+
+#banner-heading {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.1), 1px -1px 0 rgba(0, 0, 0, 0.1), -1px 1px 0 rgba(0, 0, 0, 0.1), 1px 1px 0 rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+  /*-------------------- BODY --------------------*/
+
 body {
   background-color: #F7F7F7;
   font-family: 'Lato', sans-serif;
   font-size: 17px;
   line-height: 22px;
-  margin: 40px;
-}
-
-h1, h2 {
-  color: #364F6B;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 28px;
-  line-height: 14px;
 }
 
 #profile-pic {
@@ -52,9 +69,21 @@ h1, h2 {
   margin: 15px auto;
 }
 
+  /*-------------------- HEADERS --------------------*/
+
+h1, h2 {
+  color: #364F6B;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  line-height: 14px;
+}
+
 h2 {
   font-size: 21px;
 }
+
+  /*-------------------- PARAGRAPHS --------------------*/
+
 
 p {
   color: black;
@@ -62,24 +91,24 @@ p {
   padding: 10px;
 }
 
-  /*-------------------- BUTTON --------------------*/
+  /*-------------------- BUTTONS --------------------*/
 
-  .btn-grayblue {
-    background-color: #427AA1;
-    color: white;
-    padding: 12px 40px;
-    border-radius: 3px;
-    font-weight: bold;
-    display: inline-block;
-  }
+.btn-grayblue {
+  background-color: #427AA1;
+  color: white;
+  padding: 12px 40px;
+  border-radius: 3px;
+  font-weight: bold;
+  display: inline-block;
+}
 
-  .btn-grayblue:hover {
-    background-color: #5982B2;
-  }
+.btn-grayblue:hover {
+  background-color: #5982B2;
+}
 
   /*-------------------- SOCIALS --------------------*/
 
-.socials {
+.social-card {
   padding: 25px 25px 20px 25px;
 }
 
@@ -113,4 +142,10 @@ a {
 
 #twitch:hover {
   color: #9146FF
+}
+
+  /*-------------------- EFFECTS --------------------*/
+
+.opaque {
+  opacity: 0.2;
 }
