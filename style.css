@@ -1,0 +1,116 @@
+@media (max-width: 3440px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 650px;
+    margin: auto;
+    text-align: center;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+.card {
+  background-color: white;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
+
+body {
+  background-color: #F7F7F7;
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  line-height: 22px;
+  margin: 40px;
+}
+
+h1, h2 {
+  color: #364F6B;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  line-height: 14px;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  width: 145px;
+  margin: 15px auto;
+}
+
+h2 {
+  font-size: 21px;
+}
+
+p {
+  color: black;
+  text-align: justify;
+  padding: 10px;
+}
+
+  /*-------------------- BUTTON --------------------*/
+
+  .btn-grayblue {
+    background-color: #427AA1;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 3px;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  .btn-grayblue:hover {
+    background-color: #5982B2;
+  }
+
+  /*-------------------- SOCIALS --------------------*/
+
+.socials {
+  padding: 25px 25px 20px 25px;
+}
+
+.social-list {
+  list-style: none;
+  padding-left: 0px;
+  color: rgba(0,0,0,0.5);}
+
+.social-icon {
+  font-size: 40px;
+  margin: 3px 10px;
+  display: inline-block;
+}
+
+a {
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+}
+
+.social-list a {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.social-list a:hover {
+  color: rgba(0, 0, 0, 0.9)
+}
+
+#twitter:hover {
+  color: #1DA1F2
+}
+
+#twitch:hover {
+  color: #9146FF
+}
