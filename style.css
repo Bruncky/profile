@@ -7,7 +7,7 @@
   }
 }
 @media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
+  /* For a screen < 720px, this CSS will be read  COMMENT*/
   .container {
     width: 500px;
     margin: auto;
