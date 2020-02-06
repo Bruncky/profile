@@ -1,0 +1,12 @@
+.btn-grayblue {
+  background-color: #427AA1;
+  color: white;
+  padding: 12px 40px;
+  border-radius: 3px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn-grayblue:hover {
+  background-color: #5982B2;
+}
