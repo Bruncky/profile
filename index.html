@@ -2,76 +2,78 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+    <!-- COMPATIBILITY -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Bruncky</title>
+    <!-- FONTS -->
+    <script src="https://kit.fontawesome.com/666567bb82.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Nunito:600&display=swap" rel="stylesheet">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 
-  <script src="https://kit.fontawesome.com/666567bb82.js" crossorigin="anonymous"></script>
-
-  <link rel="icon" href="images/favicon.png">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-  <link rel="stylesheet" href="style.css">
+    <!-- METADATA -->
+    <link rel="icon" href="images/favicon.png">
+    <title>Bruncky's Profile</title>
 </head>
 
-  <div class="banner">
-    <h1 id="banner-heading">Ruby and iOS Developer</h1>
-  </div>
-
 <body>
+    <div class="banner">
+        <nav class="navbar navbar-dark">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo_sRGB.png" class="d-inline-block align-top" alt="Logo">
+            </a>
+            <h4>Bruncky</h4>
+        </nav>
 
-  <div class="container">
-
-
-    <div class="card">
-      <h1>Hi, I'm Bruno!</h1>
-
-      <img src="images/Formatura.jpg" alt="My profile picture" id="profile-pic">
-
-      <h2>Programmer</h2>
-      <p>
-        I studied CES (a mix between CS and MechEng) for about 3 years. I started coding with C++ and later learned Python, Ruby, Swift, JS and HTML/CSS (not programming languages, I know). I love gaming, coding and coffee. A LOT of coffee.
-      </p>
-
-      <a href="nav/about.html" class="btn-grayblue">More Info</a>
+        <h1 id="banner-heading">Ruby and iOS Developer</h1>
     </div>
 
-    <div class="card">
+    <div class="container">
+        <div class="card">
+            <h1>Hi, I'm Bruno!</h1>
 
-      <h2>Coding Carreer</h2>
-      <p>
-        Coding carreer goes here
-      </p>
+            <img src="images/formatura.jpg" alt="My profile picture" id="avatar">
 
+            <h2>Programmer</h2>
+            <p>
+                I studied CES (a mix between CS and MechEng) for about 3 years. I started coding with C++ and later learned Python, Ruby, Swift, JS and HTML/CSS (not programming languages, I know). I love gaming, coding and coffee. A LOT of coffee.
+            </p>
+
+            <a href="nav/about.html" class="btn-grayblue">More Info</a>
+        </div>
+
+        <div class="card">
+            <h2>Coding Carreer</h2>
+            <p>
+                Coding carreer goes here
+            </p>
+        </div>
+
+        <div class="card social-card">
+            <h2>Follow me</h2>
+
+            <ul class="social-list">
+                <li class="social-list social-icon">
+                    <a href="https://github.com/bruncky" target="_blank">
+                        <i class="fab fa-github-alt"  id="github"></i>
+                    </a>
+                </li>
+                <li class="social-list social-icon">
+                    <a href="https://twitter.com/brunckygg" target="_blank">
+                        <i class="fab fa-twitter"  id="twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list social-icon">
+                    <a href="https://www.twitch.tv/bruncky" target="_blank">
+                        <i class="fab fa-twitch" id="twitch"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
-
-    <div class="card social-card">
-
-      <h2>Follow me</h2>
-      <ul class="social-list">
-        <li class="social-list social-icon">
-          <a href="https://github.com/bruncky" target="_blank">
-            <i class="fab fa-github-alt"  id="github"></i>
-          </a>
-        </li>
-        <li class="social-list social-icon">
-          <a href="https://twitter.com/brunckygg" target="_blank">
-            <i class="fab fa-twitter"  id="twitter"></i>
-          </a>
-        </li>
-        <li class="social-list social-icon">
-          <a href="https://www.twitch.tv/bruncky" target="_blank">
-            <i class="fab fa-twitch" id="twitch"></i>
-          </a>
-        </li>
-      </ul>
-
-    </div>
-  </div>
-
-
 </body>
 
 </html>
